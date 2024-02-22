@@ -1,0 +1,6 @@
+.przerywnik{
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}

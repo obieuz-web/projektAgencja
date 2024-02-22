@@ -1,0 +1,55 @@
+.signin-form{
+    margin: 50px 0 50px 0;
+    justify-content: center;
+    background: #fff;
+    display: flex;
+    padding:55px 40px 55px 40px;
+    border-radius: 15px;
+    width: 400px;
+}
+.opis{
+    font-family: monospace;
+    position: relative;
+    z-index:1;
+    font-size: 10px;
+    background: white;
+    width: max-content;
+    left:3px;
+    top:12px;
+    padding: 0 2px 0 2px;
+}
+.opis-error{
+    font-family: monospace;
+    position: relative;
+    color:red;
+    z-index:1;
+    font-size: 10px;
+    background: white;
+    width: max-content;
+    left:3px;
+    top:12px;
+    padding: 0 2px 0 2px;
+}
+.input{
+    width: 300px;
+    margin: 5px 0 10px 0;
+    background: #F9F7FA;
+    padding: 8px 20px 8px 20px;
+    display: block;
+    border: 0.5px solid #dadada;
+    border-radius: 5px;
+}
+
+.input:-webkit-autofill,
+.input:-webkit-autofill:hover,
+.input:-webkit-autofill:focus,
+.input:-webkit-autofill:active {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #000;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.input:focus {
+    outline: none;
+    border: 2px solid hsla(220, 100%, 50%, 80%);
+}

@@ -1,0 +1,21 @@
+.ImageWithText-wrapper{
+    background: none;
+    width: 100%;
+    display: flex;
+}
+.ImageWithText-text{
+    width: 40%;
+    color:black;
+    padding-top: 100px;
+    margin-left:100px;
+    font-size:1.3rem;
+}
+
+.ImageWithText-image{
+    width: 40%;
+    padding-left: 100px;
+}
+
+.ImageWithText-image>img{
+    width:100%
+}

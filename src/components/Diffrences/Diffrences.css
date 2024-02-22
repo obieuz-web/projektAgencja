@@ -1,0 +1,22 @@
+.diffrences{
+    background: #f6f6f6;
+    display: flex;
+}
+
+.diffrences>div{
+    flex:1 1 auto;
+    padding:30px 20px 30px 20px;
+    text-align: center;
+    font-size:1.2rem;
+}
+
+.diffrences>div>header{
+    font-size:1.4rem;
+    font-weight: 500;
+}
+
+.diffrences>div>img{
+    width:30%;
+    height: 50%;
+    padding-bottom: 20px;
+}

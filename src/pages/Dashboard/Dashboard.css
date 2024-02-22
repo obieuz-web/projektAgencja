@@ -1,0 +1,25 @@
+body{
+    margin:0;
+}
+.dashboard-container{
+    margin-top:calc(1.5rem + 20px);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.dashboard-main{
+    background: white;
+    height: 400px;
+    width: 500px;
+    border-radius: 15px;
+}
+.dashboard-text-wrapper{
+    width: 80%;
+    margin:auto;
+    font-family: monospace;
+}
+.dashboard-text-wrapper span{
+    display: block;
+}

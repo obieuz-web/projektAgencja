@@ -1,0 +1,67 @@
+body{
+    font-family: "Ubuntu", sans-serif;
+    margin:0;
+    background-image: linear-gradient( 58.2deg,  rgba(40,91,212,0.73) -3%, rgba(171,53,163,0.45) 49.3%, rgba(255,204,112,0.37) 97.7% );
+}
+.signin-container{
+    margin: calc(1.5rem + 20px) auto 0px auto;
+    width: 400px;
+    height: 596px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-button{
+    font-size:1.1em;
+    margin-top: 10px;
+    color:white;
+    border: 0.5px solid #dadada;
+    border-radius: 5px;
+    padding: 5px 25px 5px 25px;
+    width: 300px;
+    background: #504F51;
+
+}
+
+.signup-button{
+    margin-top: 5px;
+
+}
+.signup-link{
+    color:hsla(220, 100%, 50%, 80%);
+}
+
+form>input{
+    width: 300px;
+    margin: 5px 0 10px 0;
+    background: #F9F7FA;
+    padding: 8px 20px 8px 20px;
+    display: block;
+    border: 0.5px solid #dadada;
+    border-radius: 5px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #000;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid hsla(220, 100%, 50%, 80%);
+}
+
+ul{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.form-errors p{
+    margin-bottom:5px;
+    color:red;
+}

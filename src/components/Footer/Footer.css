@@ -1,0 +1,34 @@
+.footer{
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    font-size:1.2rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-logo{
+    width: 20%;
+}
+.footer-logo>img{
+    width: 100px;
+}
+.footer-motto{
+    width: 50%;
+}
+.footer-contact{
+    width: 20%;
+}
+.footer ul{
+    list-style-type: none;
+    margin: 0;
+}
+.footer li{
+    display: flex;
+    align-items: center;
+}
+.footer-icon{
+    margin-right: 8px;
+    width: 1.2rem;
+}
